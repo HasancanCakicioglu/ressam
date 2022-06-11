@@ -45,8 +45,11 @@ class addRectToClassPainter extends CustomPainter{
 
   
     Path path = Path();
+    
     path.addRect(Rect.fromLTWH(size.width / 2, size.height / 2, size.width / 4, size.height / 4));
+    
     canvas.drawPath(path, paint);
+    
 
     
 

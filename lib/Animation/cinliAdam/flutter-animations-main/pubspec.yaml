@@ -1,0 +1,31 @@
+name: animations_app
+description: A new Flutter application.
+version: 1.1.0
+publish_to: none
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+dependencies:
+  cupertino_icons: any
+  flare_flutter: any
+  flutter:
+    sdk: flutter
+  keyboard_visibility:
+    git:
+      url: https://github.com/spiderion/flutter_keyboard_visibility.git
+      ref: null_safe
+  mono_kit:
+  quiver: any
+  simple_logger: any
+  transparent_image: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic_mono: '>=1.12.0-dev'
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: NothingYouCouldDo
+      fonts:
+        - asset: fonts/NothingYouCouldDo.ttf

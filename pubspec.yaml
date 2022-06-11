@@ -43,6 +43,14 @@ dependencies:
   flame_forge2d: ^0.11.0
   flame_flare: ^1.1.1
 
+
+  ### TicTacToe ###
+  google_fonts: any
+  avatar_glow: any
+  ### TicTacToe ###
+
+ 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -67,6 +75,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+    - lib/Game/Pacman/images/
+    - lib/Game/TicTacToe/images/tictactoelogo.png
     - assets/images/
     - assets/images/parallax/
     - assets/images/tile_maps/
