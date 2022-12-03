@@ -42,6 +42,7 @@ dependencies:
   dashbook: 0.1.6
   flame_forge2d: ^0.11.0
   flame_flare: ^1.1.1
+  just_audio: ^0.9.28
 
 
   ### TicTacToe ###
@@ -88,6 +89,13 @@ flutter:
     - assets/images/gems/
     - assets/
     - assets/audio/sfx/
+    - assets/audio/snackGame/
+
+    ###### dinasour ######
+    - assets/dinasour/
+    - assets/dinasour/cacti/
+    - assets/dinasour/dino/
+    - assets/dinasour/ptera/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

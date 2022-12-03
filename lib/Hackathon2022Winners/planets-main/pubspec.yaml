@@ -1,0 +1,55 @@
+name: planets
+description: A Slide Puzzle, made with Flutter <3
+
+publish_to: "none"
+
+version: 1.3.5
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  bloc: ^8.0.2
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_localizations:
+    sdk: flutter
+  font_awesome_flutter: ^9.2.0
+  gallery_saver: ^2.3.2
+  gap: ^2.0.0
+  intl: ^0.17.0
+  just_audio: ^0.9.20
+  path_provider: ^2.0.9
+  rive: ^0.8.1
+  universal_html: ^2.0.8
+  url_launcher: ^6.0.20
+  uuid: ^3.0.6
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/audio/
+    - assets/images/
+    - assets/planets/earth/
+    - assets/planets/jupiter/
+    - assets/planets/mars/
+    - assets/planets/mercury/
+    - assets/planets/neptune/
+    - assets/planets/pluto/
+    - assets/planets/saturn/
+    - assets/planets/uranus/
+    - assets/planets/venus/
+
+  fonts:
+    - family: Freshman
+      fonts:
+        - asset: assets/fonts/freshman.ttf
